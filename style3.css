@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@900 & display=swap');
+
+body {
+    background-color: #E6E6FA;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.table {
+    background-color: #FEFEE0;
+}
+
+.table thead th {
+    background-color: #585858;
+    color: #FFFFFF;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #D1D0D0;
+}
+
+.table tbody td {
+    color: #293133;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+
+
+

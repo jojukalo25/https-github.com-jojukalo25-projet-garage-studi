@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@900 & display=swap');
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .car-card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .car-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .car-card h1 {
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 0;
+  }
+
+  .car-card p {
+    font-family: 'Roboto', sans-serif ;
+    margin-bottom: 5px;
+  }
+
+  .cart-button {
+    background-color: #40E0D0;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .cart-button:hover {
+    background-color: #CFA0E9;
+  }
+
+  footer {
+    background: #87E990 ;
+    height: 30px;
+    width: 100;
+    text-align: center;
+    padding-top: 5px;
+  }

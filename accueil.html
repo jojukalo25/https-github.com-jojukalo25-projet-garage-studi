@@ -4,269 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garage V. Parrot</title>
-    <link href="https : //fonts.googleapis.com/css2?family= Roboto :wght@300 & display=swap" rel="stylesheet">
+    <link href="https://www.code-couleur.com/" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/1a0b88a9d7.js" crossorigin="anonymous"></script>
-    
-        
-   </head>
+</head>
+
 <body>
     <header>
         <div class="header">
-            <div class="container">
-              <div class="header_navbar">
-                <div class="header_navbar--logo">
-                  <img src="assets/logo-garage-2.png" width="300" height="100">  
+          <div class="header_navbar">
+            <div class="header_navbar--logo">
+              <img src="images/logo-garage-2.png" width="300" height="100">  
+            </div>
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">       
+                  <div class="header_navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="accueil.html">Accueil</a>
+                    <a class="nav-link" href="services.html">Services</a>
+                    <a class="nav-link" href="voitures.html" >Voitures</a>
+                    <a class="nav-link" href="horaires.html">Horaires</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
+                    <a class="nav-link" href="connection.html">Connecter</a>
+                 </div>
                 </div>
-                <div class="header_navbar--menu"></div>
-               
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="accueil" >Accueil</a></li>
-                <li class="nav-item">
-                    <a class="nav-link"href="services" >Services</a></li>
-                <li class="nav-item">
-                    <a class="nav-link"href="voitures" >Voitures</a></li>
-                <li class="nav-item">
-                    <a class="nav-link"href="horaires">Horaires d'ouverture</a></li>
-                <li class="nav-item">
-                    <a class="nav-link"href="contact">Contact</a></li>
-                <li class="nav-item">
-                    <a class="nav-link"href="admin">Espace Administrateur</a></li>
-            </ul>
-        
-    </header>
-
-    <section id="accueil">
-        <h1>Accueil</h1>
-        <p>Bienvenue<br>
-        Nous avons une large gamme de services et de voitures d'occasions à votre service</p>
-    </section>
-
-    <section id="services">
-       <div class="services">
-        <p class="image"><image-garage1.png></p>
-            <img src="assets/image-garage1.png">
-        </div> 
-        <h2>Services</h2>
-        <p>l'entretien, la réparation et les réparations de votre carosserrie de véhicule est notre métier.<br>
+              </nav>
+          </div>
+        </div>                   
+           
+        <div class="container">
+          <h1 class="center-text">Bienvenue</h1>
+            <p class="center-text">l'entretien, la réparation et les réparations de votre carosserrie de véhicule est notre métier.<br>
             La disponibilité, l'expérience et le savoir-faire sont nos meilleurs atouts.<br>
            Nous vous proposons une palette de prestations rapides pour vous simplifier la vie <br>
             A des tarifs toujours plus bas.<br>
            Nos réparations sont garanties et vous pouvez réaliser des devis sans vous engager.<br>
            Vous serez reçu avec professionnalisme et dynamisme.</p>
-           <ul>
-            <li>Entretien mécanique</li>
-            <li>Réparation de carrosserie</li>
-            <li>Changement d'huile</li>
-            <li>Diagnostic électronique</li>
-            <li>Services de pneumatiques</li>
-           </ul>    
-    </section>
-
-    <section id="voitures">
-       <h3>Annonces de voitures</h3> 
-        <div class="voitures">
-            <label for="filter">Filtrer</label>
-            <select id="filter">
-              <option value="all">Toutes les marques</option>
-              <option value="BMW">BMW</option>
-              <option value="citroen">CITROEN</option>
-              <option value="peugeot">PEUGEOT</option>
-              <option value="mazda">MAZDA</option>
-              <option value="renault">RENAULT</option>
-              <option value="all">Toutes les options</option>
-              <option value="année de mise en circulation">ANNEE DE MISE EN CIRCULATION</option>
-              <option value="boîte de vitesse">BOITE DE VITESSE</option>
-              <option value="carburant">CARBURANT</option>
-              <option value="kilométrage">KILOMETRAGE</option>
-              <option value="prix">PRIX</option>
-              <option value="option">OPTION</option>
-            </select>
-            
+        </div>   
+      </header>  
         
-          </div>
-        
-          <div class="car-container">
-            <div class="car-card">
-              <img src="assets/photo3.jpg" alt="Voiture 1">
-              <h2>BMW SERIE 8 G15 phase2</h2>
-              <p>Année de mise en circulation: 2019</p>
-              <p>Boite de vitessse: automatique</p>
-              <p>Carburant: diesel</p>
-              <p>Kilométrage: 117 000 km</p>
-              <p>Prix: 64 998 €</p>
-              <button class="cart-button" onclick="addToCart('Voiture 1')">Ajouter au panier</button>
-            </div>
-        
-            <div class="car-card">
-              <img src="assets/photo4.png" alt="Voiture 2">
-              <h2>CITROEN C4 phase3 </h2>
-              <p>Année de mise en circulation: 2021</p>
-              <p>Boite de vitesse: automatique</p>
-              <p>Carburant: diesel</p>
-              <p>Kilométrage: 14 084 km</p>
-              <p>Prix: 29 990 €</p>
-              <button class="cart-button" onclick="addToCart('Voiture 2')">Ajouter au panier</button>
-            </div>
-        
-            <div class="car-card">
-              <img src="assets/photo5.png" alt="Voiture 3">
-              <h2>peugeot 3008 phase2</h2>
-              <p>Année de mise en circulation: 2021</p>
-              <p>Boite de vitesse: automatique</p>
-              <p>Carburant: diesel</p>
-              <p>Kilométrage: 110 827 km</p>
-              <p>Prix: 20 490 €</p>
-              <p>Option: Rétroviseurs dégivrants, Régulateur de vitesse</p>
-              <button class="cart-button" onclick="addToCart('Voiture 3')">Ajouter au panier</button>
-            </div>
-        
-            <div class="car-card">
-              <img src="assets/photo6.jpg" alt="Voiture 4">
-              <h2>MAZDA Cx-5</h2>
-              <p>Année de mise en circulation: 2020</p>
-              <p>Boite de vitesse: automatique</p>
-              <p>Carburant: diesel</p>
-              <p>Kilométrage: 33 198 km</p>
-              <p>Prix: 33 750 €</p>
-              <p>Option: Climatisation automatique multi zone</p>
-              <button class="cart-button" onclick="addToCart('Voiture 4')">Ajouter au panier</button>
-            </div>
-        
-            <div class="car-card">
-              <img src="assets/photo7.png" alt="Voiture 5">
-              <h2>PEUGEOT 205 GTI</h2>
-              <p>Année de mise en circulation: 1991</p>
-              <p>Boite de vitesse: manuelle</p>
-              <p>Carburant: essence</p>
-              <p>Kilométrage: 147 209 km</p>
-              <p>Prix: 24 980 €</p>
-              <p>Option: Fermeture électrique</p>
-              <button class="cart-button" onclick="addToCart('Voiture 5')">Ajouter au panier</button>
-            </div>
-        
-            <div class="car-card">
-              <img src="assets/photo8.png" alt="Voiture 6">
-              <h2>RENAULT CAPTUR</h2>
-              <p>Année de mise en circulation: 2016</p>
-              <p>Boite de vitesse: manuelle</p>
-              <p>Carburant: essence</p>
-              <p>Kilométrage: 113 119 km</p>
-              <p>Prix: 10 990 €</p>
-              <p>Option: Régulateur de vitesse</p>
-              <button class="cart-button" onclick="addToCart('Voiture 6')">Ajouter au panier</button>
-        </div>
-    </section>
-
-     
-    <section id="horaires">
-        <h4>Horaires d'ouverture</h4>
-        <p>Nos horaires d'ouverture sont les suivants :</p>
-        <table>
-            <tr>
-                <th>Jour</th>
-                <th>Heures d'ouverture</th>
-            </tr>
-            <tr>
-                <td>Lundi</td>
-                <td>8h00 - 18h00</td>
-            </tr>
-            <tr>
-                <td>Mardi</td>
-                <td>8h00 - 18h00</td>
-            </tr>
-            <tr>
-                <td>Mercredi</td>
-                <td>8h00 - 18h00</td>
-            </tr>
-            <tr>
-                <td>Jeudi</td>
-                <td>8h00 - 18h00</td>
-            </tr>
-            <tr>
-                <td>Vendredi</td>
-                <td>8h00 - 18h00</td>
-            </tr>
-            <tr>
-                <td>Samedi</td>
-                <td>9h00 - 14h00</td>
-            </tr>
-            <tr>
-                <td>Dimanche</td>
-                <td>Fermé</td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="contact">
-        <h5>Contactez-nous</h5>
-        <script>
-        <?php
-        // Assurez-vous que vous avez la connexion à la base de données configurée ici
-        $host = 'localhost';
-        $dbname = 'formulaire_contact';
-        $username = 'root';
-        $password = 'Jojukalo';
-        
-        try {
-            $dbh = new PDO("mysql:host=127.0.0.1;dbname=$dbname", $username, $password);
-        
-            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                $nom = $_POST['nom'];
-                $email = $_POST['email'];
-                $message = $_POST['message'];
-                // Insérez les données du formulaire dans la base de données
-                $query = "INSERT INTO submissions (nom, prénom, email, téléphone, message) VALUES (:nom, :prenom, :email, :telephone, :message)";
-                $stmt = $db->prepare($query);
-                $stmt->execute(array(':nom' => $nom, ':prénom' => $prenom, ':email' => $email, ':téléphone' => $telephone, ':message' => $message));
-        
-                echo "Merci pour votre soumission !";
-            }
-        } catch (PDOException $e) {
-            die("Erreur : " . $e->getMessage());
-        }
-               
-        ?>
-        </script>
-        <form method="post" action="traitement_formulaire.php">
-            <label for="Nom">Nom :</label>
-            <input type="text" name="nom" id="nom" required><br>>
-
-            <label for="Prenom">Prénom :</label>
-            <input type="text" name="prenom" id="prenom" required><br>>
-            
-            <label for="email">Email :</label>
-            <input type="email" name="email" id="email" required><br>>
-                          
-            <label for="telephone">Téléphone</label>
-            <input type="telephone" name="telephone" id="telephone" required><br>
-            
-            <label for="message">Message :</label>
-            <textarea name="message" id="message" rows="5" required></textarea><br>
-
-            <input type="submit" value="Envoyer">
-         
-    </form>
-       
-               
-        
-    </section>
-      
-    <section id="admin">
-        <h2>Espace Administrateur</h2>
-        <form action="admin_login" method="post">
-            <label for="username">Nom d'utilisateur:</label>
-            <input type="text" id="username" name="username" required><br>
-            <label for="password">Mot de passe:</label>
-            <input type="password" id="password" name="password" required><br>
-            <input type="submit" value="Se connecter en tant qu'administrateur">
-        </form>
-    </section>
-
     <footer>
-        <p>&copy; 2023 Garage Automobile Vincent Parrot. Tous droits réservés.</p>
+     <span>Horaires: Lundi-Vendredi : 8:45-12:00; Samedi : 8:45-12:00; Dimanche : fermé</span>
     </footer>
+
 </body>
 </html>

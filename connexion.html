@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Connexion</title>
+        <link href="https://www.code-couleur.com/" rel="stylesheet">
+        <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <div class="container">
+     <h1>Espace Administrateur</h1>
+      <div class="admin-form">
+        <h2>Connexion de l'Administrateur</h2>
+          <input type="text" id="adminUsername" placeholder="Nom d'utilisateur de l'administrateur">
+          <input type="password" id="adminPassword" placeholder="Mot de passe de l'administrateur">
+          <button onclick="adminLogin()">Se connecter</button>
+      </div>
+    </div>
+
+    <div class="admin-form">       
+      <h3>Modifier les services</h3> 
+        <input type="text" id="serviceInput" placeholder="Nouveau service">
+        <button onclick="addService()">Ajouter un service</button>
+    </div>   
+       
+    <div class="admin-form">
+      <h4>Modifier les Horaires d'Ouverture</h4>  
+        <input type="text" id="openingHoursInput" placeholder="Nouveaux horaires d'ouverture">
+        <button onclick="setOpeningHours()">Définir les horaires d'ouverture</button>
+    </div>
+
+    <div class="admin-form">
+      <h5>Créer un compte employé</h5>
+        <input type="text" id="createAccount" placeholder="Création comptes employés">
+        <button onclick="createEmployeeAccount()">Créer un compte employé</button>
+    </div>
+
+    <footer>
+      <span>Horaires: Lundi-Vendredi : 8:45-12:00; Samedi : 8:45-12:00; Dimanche : fermé</span>
+    </footer>
+</body>
+</html>

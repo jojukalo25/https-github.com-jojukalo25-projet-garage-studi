@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://www.code-couleur.com/" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>Voitures</title>
+</head>
+
+<body>
+    <section id="voitures">
+        <h1>Annonces de voitures</h1> 
+         <div class="voitures">
+             <label for="filter">Filtrer</label>
+             <select id="filter">
+               <option value="all">Toutes les marques</option>
+               <option value="BMW">BMW</option>
+               <option value="citroen">CITROEN</option>
+               <option value="peugeot">PEUGEOT</option>
+               <option value="mazda">MAZDA</option>
+               <option value="renault">RENAULT</option>
+               <option value="all">Toutes les options</option>
+               <option value="année de mise en circulation">ANNEE DE MISE EN CIRCULATION</option>
+               <option value="boîte de vitesse">BOITE DE VITESSE</option>
+               <option value="carburant">CARBURANT</option>
+               <option value="kilométrage">KILOMETRAGE</option>
+               <option value="prix">PRIX</option>
+               <option value="option">OPTION</option>
+             </select>
+            </div>
+    </section>
+
+           <div class="car-container">
+             <div class="car-card">
+               <img src="images/photo3.jpg" alt="Voiture 1">
+                 <h2>BMW SERIE 8 G15 phase2</h2>
+                   <p>Année de mise en circulation: 2019</p>
+                   <p>Boite de vitessse: automatique</p>
+                   <p>Carburant: diesel</p>
+                   <p>Kilométrage: 117 000 km</p>
+                   <p>Prix: 64 998 €</p>
+                   <button class="cart-button" onclick="addToCart('Voiture 1')">Ajouter au panier</button>
+             </div>
+           </div>
+         
+             <div class="car-card">
+               <img src="images/photo4.png" alt="Voiture 2">
+                 <h2>CITROEN C4 phase3 </h2>
+                   <p>Année de mise en circulation: 2021</p>
+                   <p>Boite de vitesse: automatique</p>
+                   <p>Carburant: diesel</p>
+                   <p>Kilométrage: 14 084 km</p>
+                   <p>Prix: 29 990 €</p>
+                   <button class="cart-button" onclick="addToCart('Voiture 2')">Ajouter au panier</button>
+             </div>
+         
+             <div class="car-card">
+               <img src="images/photo5.png" alt="Voiture 3">
+                 <h2>peugeot 3008 phase2</h2>
+                   <p>Année de mise en circulation: 2021</p>
+                   <p>Boite de vitesse: automatique</p>
+                   <p>Carburant: diesel</p>
+                   <p>Kilométrage: 110 827 km</p>
+                   <p>Prix: 20 490 €</p>
+                   <p>Option: Rétroviseurs dégivrants, Régulateur de vitesse</p>
+                   <button class="cart-button" onclick="addToCart('Voiture 3')">Ajouter au panier</button>
+             </div>
+         
+             <div class="car-card">
+               <img src="images/photo6.jpg" alt="Voiture 4">
+                 <h2>MAZDA Cx-5</h2>
+                   <p>Année de mise en circulation: 2020</p>
+                   <p>Boite de vitesse: automatique</p>
+                   <p>Carburant: diesel</p>
+                   <p>Kilométrage: 33 198 km</p>
+                   <p>Prix: 33 750 €</p>
+                   <p>Option: Climatisation automatique multi zone</p>
+                   <button class="cart-button" onclick="addToCart('Voiture 4')">Ajouter au panier</button>
+             </div>
+         
+             <div class="car-card">
+               <img src="images/photo7.png" alt="Voiture 5">
+                <h2>PEUGEOT 205 GTI</h2>
+                  <p>Année de mise en circulation: 1991</p>
+                  <p>Boite de vitesse: manuelle</p>
+                  <p>Carburant: essence</p>
+                  <p>Kilométrage: 147 209 km</p>
+                  <p>Prix: 24 980 €</p>
+                  <p>Option: Fermeture électrique</p>
+                  <button class="cart-button" onclick="addToCart('Voiture 5')">Ajouter au panier</button>
+             </div>
+         
+             <div class="car-card">
+               <img src="images/photo8.png" alt="Voiture 6">
+                <h2>RENAULT CAPTUR</h2>
+                  <p>Année de mise en circulation: 2016</p>
+                  <p>Boite de vitesse: manuelle</p>
+                  <p>Carburant: essence</p>
+                  <p>Kilométrage: 113 119 km</p>
+                  <p>Prix: 10 990 €</p>
+                  <p>Option: Régulateur de vitesse</p>
+                  <button class="cart-button" onclick="addToCart('Voiture 6')">Ajouter au panier</button>
+         </div>
+       </section>
+
+     <footer>
+      <span>Horaires: Lundi-Vendredi : 8:45-12:00; Samedi : 8:45-12:00; Dimanche : fermé</span>
+     </footer>
+</body>
+</html>

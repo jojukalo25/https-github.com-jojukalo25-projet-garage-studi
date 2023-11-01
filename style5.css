@@ -8,29 +8,6 @@ body, html {
     text-decoration: none;
 } 
 
-.header  {
-    height : 550px;
-    width: 100%;
-   background: linear-gradient(#40E0D0, #FAF0E6);
-}
-
-.header_navbar {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.header_navbar--logo {
-    color: #FF0016;
-    font-size: 20px;
-    position:right; 
-    padding: 30px;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -43,15 +20,11 @@ body, html {
     text-align: center;
 }
 
-h1 {
+h1 .h2 .h3 .h4 .h5 {
     font-family: 'Poppins' , sans-serif;
     font-weight: bold;
     font-size: 60px;
 } 
-
- p {
-    font-size: 1.6rem;
-}
 
 footer {
     background: #87E990 ;
@@ -59,47 +32,4 @@ footer {
     width: 100;
     text-align: center;
     padding-top: 5px;
-}
- 
-  
-
-  
-
-
-
-
-
- 
-
-
-   
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-    
-
-
+}    
